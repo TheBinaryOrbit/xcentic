@@ -57,8 +57,8 @@ const Footer = () => {
           </div>
           <div className='md:mt-10 flex flex-col justify-start items-start leading-8'>
             <p className="flex justify-center items-center"><FaLocationDot /> &nbsp;Ghaziabad (NCR) Uttar Pradesh , India</p>
-            <p className="flex justify-center items-center"><FaPhoneAlt />&nbsp; +91 6203821043</p>
-            <p className="flex justify-center items-center"><MdAttachEmail />&nbsp;anissh946@gamil.com</p>
+            <p className="flex justify-center items-center"><FaPhoneAlt />&nbsp; +91 79069 43033</p>
+            <p className="flex justify-center items-center"><MdAttachEmail />&nbsp;business@xcentic.in</p>
           </div>
         </div>
 
