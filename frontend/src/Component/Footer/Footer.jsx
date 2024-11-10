@@ -9,7 +9,7 @@ import { AiFillCode } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className='w-full h-fit p-5'>
-      <div className='w-full h-full bg-gray-300 rounded-2xl p-5 flex flex-col justify-evenly items-center gap-3'>
+      <div className='w-full h-full  rounded-2xl p-5 flex flex-col justify-evenly items-center gap-3 bg-indigo-100'>
         {/* <div className='w-full h-full rounded-xl py-10 rounded-b-2xl  bg-news object-cover bg-cover flex md:flex-row justify-between px-10 flex-col'>
           <div className="w-full  md:w-[50%] h-fit flex flex-col justify-center items-start gap-4">
             <h2 className="sm:text-xl md:text-3xl lg:text-4xl font-palyfair font-extrabold text-white">Subscribe to Newsletter</h2>
