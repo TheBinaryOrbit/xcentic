@@ -20,13 +20,13 @@ const Header = () => {
                 <div className='absolute md:static w-screen  h-[20vh] md:w-[40%]  md:h-full md:min-h-full  top-[10%]  duration-500 flex items-center  justify-start  md:justify-end  md:bg-transparent z-50' style={{ left: open ? "0%" : "-100%" }}>
                     <ul className='flex md:flex-row flex-col md:items-center justify-end    items-start gap-2 md:gap-10  pl-3 md:pl-0 '>
                         <li>
-                            <HashLink to={'/#home'} className='font-bold text-black hover:text-green-400 duration-300' onClick={() => setopen(!open)}>Home</HashLink>
+                            <HashLink to={'/#home'} className='font-bold text-black hover:  duration-300' onClick={() => setopen(!open)}>Home</HashLink>
                         </li>
                         <li>
-                            <HashLink to={'/#about'} className='font-bold text-black hover:text-green-400 duration-300' onClick={() => setopen(!open)}>About</HashLink>
+                            <HashLink to={'/#about'} className='font-bold text-black hover:scale-110 duration-300' onClick={() => setopen(!open)}>About</HashLink>
                         </li>
                         <li>
-                            <HashLink to={"/#contact"} className='font-bold text-black hover:text-green-400 duration-300' onClick={() => setopen(!open)}>Contact</HashLink>
+                            <HashLink to={"/#contact"} className='font-bold text-black hover:scale-110 duration-300' onClick={() => setopen(!open)}>Contact</HashLink>
                         </li>
                     </ul>
                 </div>
