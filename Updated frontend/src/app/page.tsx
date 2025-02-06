@@ -5,7 +5,6 @@ import { ProductShowcase } from "@/sections/ProductShowcase";
 import { Pricing } from "@/sections/Pricing";
 import { Testimonials } from "@/sections/Testimonials";
 import FAQ from "@/sections/faq";
-import ConnectAndElevate from "@/sections/connect-and-elevate";
 import  Footer  from "@/sections/footer";
 import PricingSection from "@/sections/PricingSection";
 import Enhanced from "@/sections/EnhancedDomains";
@@ -24,7 +23,7 @@ export default function Home() {
       <Enhanced />
       <Testimonials />
       <FAQ />
-      <ConnectAndElevate/>
+      {/* <ConnectAndElevate/> */}
       <Footer />
     </>
   );
