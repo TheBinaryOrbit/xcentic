@@ -1,5 +1,5 @@
 "use client"
-import { FaMobileAlt, FaLaptopCode, FaCloud, FaCogs, FaSync, FaLightbulb, FaGlobe } from "react-icons/fa";
+import { FaMobileAlt, FaLaptopCode, FaCloud, FaCogs, FaSync, FaGlobe } from "react-icons/fa";
 
 const services = [
   {

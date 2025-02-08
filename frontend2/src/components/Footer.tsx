@@ -1,6 +1,6 @@
 import img from '../assets/whitelogo.png'
 import Image from 'next/image'
-import { FaGooglePlay, FaAppStoreIos, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from 'react-icons/fa6';
 
 
