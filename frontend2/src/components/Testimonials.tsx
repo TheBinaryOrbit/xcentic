@@ -14,60 +14,61 @@ import React from "react";
 
 const testimonials = [
   {
-    text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    text: "As an IT consultant always looking for cutting-edge solutions, this agency's software development services exceeded my expectations.",
     imageSrc: avatar1.src,
-    name: "Jamie Rivera",
-    username: "@jamietechguru00",
+    name: "Amit Sharma",
+    username: "@amit_techie",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "Our company's workflow efficiency has significantly improved since partnering with this IT firm.",
     imageSrc: avatar2.src,
-    name: "Josh Smith",
-    username: "@jjsmith",
+    name: "Neha Verma",
+    username: "@neha_dev",
   },
   {
-    text: "This app has completely transformed how I manage my projects and deadlines.",
+    text: "Their agile development approach ensured our project was delivered on time with exceptional quality.",
     imageSrc: avatar3.src,
-    name: "Morgan Lee",
-    username: "@morganleewhiz",
+    name: "Rahul Iyer",
+    username: "@rahul_codes",
   },
   {
-    text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    text: "From UI/UX design to backend development, this agency's expertise is unmatched.",
     imageSrc: avatar4.src,
-    name: "Casey Jordan",
-    username: "@caseyj",
+    name: "Pooja Mehta",
+    username: "@poojamehta_ui",
   },
   {
-    text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    text: "Managing multiple IT projects has never been easier. Their solutions provide seamless integration and automation.",
     imageSrc: avatar5.src,
-    name: "Taylor Kim",
-    username: "@taylorkimm",
+    name: "Vikram Singh",
+    username: "@vikram_it",
   },
   {
-    text: "The customizability and integration capabilities of this app are top-notch.",
+    text: "The level of customization and security in their software products is outstanding.",
     imageSrc: avatar6.src,
-    name: "Riley Smith",
-    username: "@rileysmith1",
+    name: "Ananya Kapoor",
+    username: "@ananya_kapoor",
   },
   {
-    text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+    text: "Their IT consulting services have streamlined our business operations and boosted overall productivity.",
     imageSrc: avatar7.src,
-    name: "Jordan Patels",
-    username: "@jpatelsdesign",
+    name: "Rohan Joshi",
+    username: "@rohan_j_it",
   },
   {
-    text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+    text: "With their robust enterprise solutions, we can manage projects, track progress, and enhance collaboration effortlessly.",
     imageSrc: avatar8.src,
-    name: "Sam Dawson",
-    username: "@dawsontechtips",
+    name: "Sanya Rajput",
+    username: "@sanya_techpro",
   },
   {
-    text: "Its user-friendly interface and robust features support our diverse needs.",
+    text: "Their technical expertise and proactive support have been a game-changer for our company.",
     imageSrc: avatar9.src,
-    name: "Casey Harper",
-    username: "@casey09",
+    name: "Devansh Malhotra",
+    username: "@devansh_m",
   },
 ];
+
 
 const firstColumn = testimonials.slice(0, 3);
 const secondColumn = testimonials.slice(3, 6);

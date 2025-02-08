@@ -9,14 +9,6 @@ const faqs = [
     answer: "We assess your current technology landscape, identify opportunities for growth, and implement customized digital solutions to streamline operations and enhance performance."
   },
   {
-    question: "What industries do you serve?",
-    answer: "We work across diverse industries, including finance, healthcare, retail, manufacturing, and logistics, delivering tailored digital solutions that drive impact."
-  },
-  {
-    question: "How does AI benefit businesses?",
-    answer: "AI enhances efficiency, automates repetitive tasks, and provides actionable insights, allowing businesses to focus on innovation and strategy."
-  },
-  {
     question: "Can you assist with cloud migration and security?",
     answer: "Absolutely! Our cloud-managed services ensure a smooth transition to the cloud while maintaining data security and compliance."
   },
@@ -29,9 +21,9 @@ const faqs = [
 const FAQ = () => {
   return (
     <section className="py-20">
-      <div className="container mx-auto px-6">
-        <h2 className="text-5xl md:text-6xl font-bold mb-6 text-center">Frequently Asked Questions</h2>
-        <p className="text-xl text-center mb-12 max-w-3xl mx-auto">Find answers to common questions about our services and processes.</p>
+      <div className="container mx-0 md:mx-auto px-6">
+        <h2 className="text-4xl md:text-6xl font-bold mb-6 md:text-center">Frequently Asked Questions</h2>
+        <p className="text-md md:text-center mb-12 max-w-3xl mx-auto">Find answers to common questions about our services and processes.</p>
         <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>

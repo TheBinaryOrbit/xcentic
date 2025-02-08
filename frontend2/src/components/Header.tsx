@@ -6,8 +6,8 @@ import { MenuIcon } from "lucide-react";
 export const Header = () => {
   return (
     <header className="">
-      <div className="w-full bg-gray-200 backdrop-blur-lg  py-2 px-5">
-        <div className="max-w-8xl mx-auto bg-white py-4 px-10 rounded-2xl">
+      <div className="w-full bg-white backdrop-blur-lg pt-4  px-5">
+        <div className="max-w-8xl mx-auto bg-white  px-10 rounded-2xl">
           <div className="flex items-center justify-between">
             <Image src={Logo} alt="Xcentic Logo" width={120} height={120}></Image>
             <MenuIcon className="text-black md:hidden" />
